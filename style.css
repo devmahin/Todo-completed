@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 40vw;
+  max-height: 80vh;
+  max-height: 80vh;
+  background-color: greenyellow;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.container::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: red;   
+    border-radius: 20px;
+}
+
+.container h2 {
+  margin: 20px 0px;
+}
+.container #input {
+  width: 70%;
+  padding: 7px 0px;
+}
+.container #btn {
+  width: 20%;
+  padding: 7px 0px;
+}
+
+.todos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.elem {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  align-items: center;
+  padding: 10px 6px;
+  border-top: 1px solid gray;
+}
+
+
+.elemEle {
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+.elemEle input{
+  margin: 0px 20px;
+}
+
+.icon i {
+  margin: 0px 5px;
+  font-size: 30px;
+}
+
+.todo_box h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px white;
+}
+.pending_box h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px white;
+}
